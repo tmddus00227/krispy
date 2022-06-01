@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+.login_wrap{
+    width:100%;
+    margin:60px 0px;
+}
+
+.login{
+    width:600px;
+    height:370px;
+    margin:0px auto;
+    background-color:#f1f0ec;
+    text-align:center;
+    border-radius: 30px;
+    font-size:14px;
+    /* line-height:40px; */
+}
+.login h2{
+    font-size:30px;
+    font-weight:500;
+    line-height:0px;
+    padding:40px 0px 35px 0px;
+}
+.login p{
+    padding:0px 0px 30px 0px;
+}
+
+.id input, .pw input{
+    padding:10px 70px;
+    border-radius:10px;
+    border:none;
+    margin:0px 0px 10px 0px;
+    font-size:14px;
+}
+.id_check{
+    text-align:left;
+    padding:0px 150px;
+    margin:0px 0px 20px 0px;
+}
+#l_save{
+    cursor: pointer;
+}
+
+button{
+    background-color:#00704A;
+    color:rgba(255,255,255);
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+.b_login button{
+    padding:10px 130px;
+    margin: 0px 0px 7px 0px;
+}
+.b_join button{
+    padding:5px 27px;
+}
+
+.sns{
+    width:1200px;
+    margin:0 auto;
+    padding:60px 0px;
+    text-align:center;
+}
+.sns h2{
+    font-size:20px;
+}
+.sns_sign i{
+    font-size:27px;
+    padding:15px 7px;
+}
+.sns_sign span{
+    display:none;
+}

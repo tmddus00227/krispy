@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.join_wrap{
+    width:100%;
+    margin:60px 0px;
+}
+
+#join{
+    width:600px;
+    height:470px;
+    margin:0px auto;
+    background-color:#f1f0ec;
+    text-align:center;
+    border-radius: 25px;
+    font-size:14px;
+    /* line-height:40px; */
+}
+#join h2{
+    font-size:30px;
+    font-weight:500;
+    line-height:0px;
+    padding:40px 0px 45px 0px;
+}
+
+.id input, .pw input, .repw input, .name input{
+    padding:10px 70px;
+    border-radius:20px;
+    border:none;
+    margin:0px 0px 10px 0px;
+    font-size:14px;
+}
+.number input{
+    padding:10px 30px;
+    border-radius:20px;
+    border:none;
+    margin:0px 0px 10px 0px;
+    font-size:14px;
+}
+
+button{
+    background-color:#00704A;
+    color:rgba(255,255,255);
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+.number button{
+    padding:8px 10px;
+    margin: 3px 0px 7px 0px;
+}
+
+.agree_1{
+    text-align:left;
+    font-size:14px;
+    padding:10px 150px;
+}
+.agree_ex{
+    color:blue;
+}
+.agree_ex:hover{
+    text-decoration: underline;
+}
+
+.join button{
+    padding:10px 130px;
+    margin:10px 0px 0px 0px;
+}

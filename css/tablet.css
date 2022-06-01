@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+@media screen and (min-width:767px) and (max-width:1024px){
+
+/* 헤더 영역 */
+header h1{
+    position:relative;
+    left:3%;
+    top:30px !important;
+}
+#h_top, .gnb>ul, .a02, .a03, .container, .a04, .a05, .a06, .a07, #address{
+    width:100%;
+}
+
+.lnb > ul > li{
+  margin:0px 20px 0px 0px;
+}
+
+.gnb > ul{justify-content:space-evenly;}
+.gnb > ul > li{
+    padding:0px 20px 0px 0px;
+}
+/* .sub{position:relative;}
+.sub > li:first-child{
+  text-align: center;
+} */
+label[for=toggle]{display:block;}
+
+/* 메인 영역 */
+/* 제목 */
+.a02 h2::before,.a02 h2::after{
+    content: "";
+    display: block;
+    width:300px;height:2px;
+    background-color: #00704a;
+    position: absolute;top:12px;
+    margin-top: 40px;
+}
+.a03 h2::before,.a03 h2::after{
+    content: "";
+    display: block;
+    width:300px;height:2px;
+    background-color: #00704a;
+    position: absolute;top:40px;
+    margin-top: 40px;
+}
+.a04 h2::before,.a04 h2::after{
+    content: "";
+    display: block;
+    width:300px;height:2px;
+    background-color: #00704a;
+    position: absolute;top:10px;
+    margin-top: 40px;
+}
+.a06 h2::before,.a06 h2::after{
+    content: "";
+    display: block;
+    width:300px;height:2px;
+    background-color: #00704a;
+    position: absolute;top:30px;
+    margin-top: 40px;
+}
+/* 메뉴 */
+.container{
+    width:900px;
+    margin:0 auto;
+    /* background-color:#e2cdc6; */
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:250px 250px 250px 250px;
+    grid-gap:10px;
+  }
+.i02{width:130px;}
+.i03{width:400px;}
+.i05{width:140px;}
+
+  /* 신메뉴 */
+  .a04{height:1000px;}
+
+  .new{
+    display:flex;
+    flex-direction:column;
+    padding:10px 200px;
+  }
+  .new > li{
+      margin-bottom:50px;
+  }
+  .info{
+    width:600px;
+    margin-top:60px;
+    background-color: #f1f0ec;
+    /* text-indent: 20px; */
+    padding:25px 0px;
+    border-radius:50% 0px 0px 50%;
+  }
+  .info > .ex{
+    padding-top:15px;
+    padding-left:275px;
+    font-size:14px;
+    line-height:22px;
+  }
+
+
+/* 푸터 영역 */
+.a07 > .footer1{
+    width:700px;
+    margin:0px auto;
+    display:flex;
+    justify-content:space-around;
+    padding:18px 50px;
+    font-size:14px;
+  }
+
+  /* 푸터 */
+  select{
+    margin-top:40px;
+    width:170px;height:34px;
+    border:none;
+    border-radius: 2px;
+    font-size:16px;
+    position:absolute;
+    left:40px;top:-10px;
+  }
+  .sns{
+    display:flex;
+    margin-top:20px;
+    position:absolute;
+    left:45px;top:70px;
+  }
+  address{
+    position:absolute;
+    right:90px;top:25px;
+  }
+
+}

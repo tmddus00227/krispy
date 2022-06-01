@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>크리스피크림도넛 MAINPAGE</title>
+    <!-- css 초기화 -->
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <!-- 공통서식 -->
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <!-- 폰트어썸 아이콘폰트 주소 -->
+    <link href="./css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- pc화면 서식 -->
+    <link href="./css/pc.css" rel="stylesheet" type="text/css">
+    <!-- tablet화면 서식 -->
+    <link href="./css/tablet.css" rel="stylesheet" type="text/css">
+    <!-- mobile화면 서식 -->
+    <link href="./css/mobile.css" rel="stylesheet" type="text/css">
+    <!-- 스와이퍼 슬라이드 서식 -->
+    <link href="./css/swiper.css" rel="stylesheet" type="text/css">
+    <!-- 파비콘 -->
+    <link href="./img/krispy_fz6_icon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- css3속성 사용시 공급업체접두사 자동으로 붙여주는 스크립트 소스 -->
+    <script src="./script/prefixfree.min.js"></script>
+    <!-- 스와이퍼 슬라이드 스크립트 소스 -->
+    <script src="./script/swiper.js"></script>
+
+
+  </head>
+  <body>
+
+    <!-- 헤더 영역 시작 -->
+    <header>
+
+      <div id="h_top">
+            <h1><a href="index.html" title="메인페이지로 바로가기">
+              <img src="./img/logo.png" alt="상단로고"></a>
+            </h1>
+
+            <nav class="lnb">
+            <ul>
+            <li><a href="login.html" title="로그인">LOGIN</a></li>
+            <li><a href="join.html" title="회원가입">JOIN</a></li>
+            <li><a href="management.html" title="윤리경영">윤리경영</a></li>
+            <li><a href="sitemap.html" title="사이트맵">사이트맵</a></li>
+            <li><a href="englishindex.html" title="English">English</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <input type="checkbox" id="toggle">
+      <div id="h_bottom">
+        <label for="toggle" class="fas fa-bars"><span class="bar">토글</span></label>
+        <nav class="gnb">
+          <ul>
+            <li><a href="menu.html" title="메뉴">Menu</a>
+              <ul class="sub">
+                <li><a href="firstmenu.html" title="인기메뉴">인기메뉴</a></li>
+                <li><a href="monthmenu.html" title="이달의 메뉴">이달의 메뉴</a></li>
+                <li><a href="donut.html" title="도넛">도넛</a></li>
+                <li><a href="coffee.html" title="커피/음료">커피/음료</a></li>
+                <li><a href="ice.html" title="아이스크림/프로즌">아이스크림/프로즌</a></li>
+              </ul>
+            </li>
+            <li><a href="stor.html" title="상점">Store</a>
+              <ul class="sub">
+                <li><a href="store.html" title="매장찾기">매장찾기</a></li>
+                <li><a href="order.html" title="주문하기">주문하기</a></li>
+              </ul>
+            </li>
+            <li><a href="event.html" title="이벤트">Event</a>
+              <ul class="sub">
+                <li><a href="eventing.html" title="진행이벤트">진행이벤트</a></li>
+                <li><a href="eventend.html" title="종료이벤트">종료이벤트</a></li>
+                <li><a href="eventwinner.html" title="당첨자발표">당첨자발표</a></li>
+                <li><a href="eventservice.html" title="제휴 서비스">제휴 서비스</a></li>
+              </ul>
+            </li>
+            <li><a href="brand.html" title="브랜드">Brand</a>
+              <ul class="sub">
+                <li><a href="movie.html" title="도넛극장">도넛극장</a></li>
+                <li><a href="brandstory.html" title="브랜드스토리">브랜드스토리</a></li>
+                <li><a href="brandvideo.html" title="브랜드영상">브랜드영상</a></li>
+                <li><a href="giftcard.html" title="상품권구입안내">상품권구입안내</a></li>
+                <li><a href="notice.html" title="공지사항">공지사항</a></li>
+              </ul>
+            </li>
+            <li><a href="survey.html" title="설문조사">Survey</a>
+              <ul class="sub">
+                <li><a href="survey.html" title="설문조사">설문조사</a></li>
+                <li><a href="surveystore.html" title="설문조사 운영점">설문조사 운영점</a></li>
+              </ul>
+            </li>
+            <li class="search_bar">
+              <input type="text" id="text">
+              <label for="text"><span class="search">검색창</span>
+                  <i class="fas fa-search"></i>
+              </label>
+            </li>
+            <li class="shopping">
+              <label for="text"><span class="basket">장바구니</span>
+                <i class="fas fa-shopping-basket"></i>
+              </label> 
+            </li>
+          </ul>
+        </nav>
+        </div>
+    </header>
+
+    <!-- 메인 영역 시작 -->
+    <main>
+      <article class="slide">
+        <h2>메인슬라이드</h2>
+        <div class="swiper-container main_slide">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/banner02.jpg" alt="메인배너1"></div>
+            <div class="swiper-slide"><img src="./img/banner03.jpg" alt="메인배너2"></div>
+            <div class="swiper-slide"><img src="./img/banner01.jpg" alt="메인배너3"></div>
+            </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </article>
+
+      <!-- 도넛 -->
+      <div class="donut">
+      <article class="a02">
+        <h2>DONUT</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/donut07.png" alt="도넛1">
+              <p>뉴욕 치즈케익</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/donut09.png" alt="도넛2">
+              <p>딸기 우유크림 듬뿍 도넛</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/donut10.png" alt="도넛3">
+              <p>로투스 비스코프 도넛</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/donut01.png" alt="도넛4">
+              <p>카라멜 아이스드</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/donut05.png" alt="도넛5">
+              <p>글레이즈드 초콜릿 케익</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/donut04.png" alt="도넛6">
+              <p>오리지널 우유크림 필드</p>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <a href="#" title="더보기" class="button">더보기</a>
+      </article>
+    </div>
+
+    <!-- 메뉴   -->
+    <article class="a03">
+       <h2>MENU</h2>
+       
+      <article class="container">
+       <div class="item">
+        <a href="firstmenu.html" title="인기메뉴">
+        <p class="m02">인기메뉴</p>
+        <img src="./img/menu01.png" alt="인기메뉴" class="i01">
+        <p class="m01">더보기</p>
+       </a>
+       </div>
+
+       <div class="item">
+         <a href="coffee.html" title="커피/음료">
+         <p class="m02">커피/음료</p>
+         <img src="./img/drink02.png" alt="커피/음료" class="i02">
+         <p class="m01">더보기</p>
+        </a>
+       </div>
+
+       <div class="item1"></div>
+       <div class="item1"></div>
+       <div class="item1"></div>
+
+       <div class="item">
+        <a href="monthmenu.html" title="이달의 메뉴">
+        <p class="m02">이달의 메뉴</p>
+        <img src="./img/menu03.png" alt="이달의 메뉴" class="i03">
+        <p class="m01">더보기</p>
+      </a>
+       </div>
+
+       <div class="item1"></div>
+
+       <div class="item">
+        <a href="donut.html" title="도넛">
+        <p class="m02">도넛</p>
+        <img src="./img/menu02.png" alt="도넛" class="i04">
+        <p class="m01">더보기</p>
+      </a>
+       </div>
+
+       <div class="item1"></div>
+       <div class="item1"></div>
+
+       <div class="item">
+        <a href="ice.html" title="아이스크림/프로즌">
+        <p class="m02">아이스크림/프로즌</p>
+        <img src="./img/ice01.png" alt="아이스크림/프로즌" class="i05">
+        <p class="m01">더보기</p>
+        </a>
+       </div>
+       
+      </article>
+      </article>
+
+      <!-- 신메뉴 -->
+      <article class="a04">
+       <h2>NEW</h2>
+       <ul class="new">
+         <li>
+           <a href="monthmenu" title="스노우맨">
+           <img src="./img/new01.jpg" alt="스노우맨">
+           <div class="info">
+             <h3>스노우맨</h3>
+             <p class="h3">SNOWMAN</p>
+             <p class="ex">
+               헤이즐넛 초코스프레드를 가득 충진하고<br>
+               코코넛 분말을 이용해<br>
+               눈을 맞은 스노우맨을 표현한 도넛</p>
+           </div>
+          </a>
+         </li>
+
+         <li>
+           <a href="monthmenu" title="산타벨리">
+           <img src="./img/new02.jpg" alt="산타벨리">
+           <div class="info">
+             <h3>산타벨리</h3>
+             <p class="h3">SANTA BELLY</p>
+             <p class="ex">
+               커스터드 필링을 가득 충진하고<br>
+               딸기캔디아이상과 벨트모양 사인판을 토핑하여<br>
+               산타배를 연상시키는 도넛</p>
+           </div>
+          </a>
+         </li>
+       </ul>
+       <a href="#" title="more" class="button">더보기</a>
+      </article>
+
+     <!-- 주문하기/매장찾기 -->
+      <div class="bg">
+      <article class="a05">
+       <h2>주문하기/매장찾기</h2>
+
+       <ul class="orderstore">
+        <li class="order">
+            <div id="orst">
+            <img src="./img/icon01.png" alt="주문하기">
+            <p class="os_txt">
+              <span id="o_t01">주문하기</span><br>
+              <span id="o_t02">특별한 날, 특별하게<br>
+              크리스피와 함께 보내세요.</span><br>
+              <a href="order.html" title="주문하기">
+              <span id="o_t03">더보기</span></a>
+          </p>
+          </div>
+         </li>
+
+        <li class="store">
+           <div class="orst">
+           <img src="./img/icon02.png" alt="매장찾기">
+           <p class="os_txt">
+             <span class="o_t01">매장찾기</span><br>
+             <span class="o_t02">언제나 열려있는<br>
+             크리스피크림도넛 매장을<br>
+             찾아보세요.</span><br>
+             <a href="store.html" title="매장찾기">
+             <span class="o_t03">더보기</span></a></p>
+          </div>
+         </li>
+
+       </ul>
+      </article>
+    </div>
+
+    <!-- 이벤트  -->
+    <article class="a06">
+        <h2>Event</h2>
+        <ul class="event">
+          <li class="evex">
+            <a href="event.html" title="오리자날 프레시 드랍">
+              <img src="./img/event01.jpg" alt="이벤트1">
+            </a>
+          <div>
+            <p class="e01">오리지날 프레시 드랍</p>
+            <p class="e02">드립백으로 내린 향기로운 커피와 <br>
+            함께 홈카페를 즐겨보세요.</p>
+          </div>
+        </li>
+
+          <li class="evex">
+            <a href="event.html" title="달+달한 수요일">
+            <img src="./img/event02.jpg" alt="이벤트2">
+          </a>
+          <div>
+            <p class="e01">달+달한 수요일</p>
+            <p class="e02">매 월 1번째, 3번째 수요일에 <br>
+            오리지널 글레이즈드 단품 
+            <br>6개 구매 시 6개를 더 드려요.</p>
+          </div>
+        </li>
+
+          <li class="evex">
+            <a href="event.html" title="달+달한 수요일">
+            <img src="./img/event03.jpg" alt="이벤트2">
+          </a>
+          <div>
+            <p class="e01">샘플링 데이</p>
+            <p class="e02">전국 9개 매장에서 갓 생산된<br> 따끈한 OG 도넛 1개를 무료로 드려요.z</p>
+          </div>
+        </li>
+
+        </ul>
+        <a href="#" title="more" class="button">더보기</a>
+       </article>
+
+      <!-- 푸터 -->
+    <div id="box03">
+    <article class="a07">
+      <h2>푸터</h2>
+        <ul class="footer1">
+          <li><a href="#" title="영상정보 처리기기 운영 및 관리 방침">영상정보 처리기기 운영 및 관리 방침</a></li>
+          <li><a href="#" title="회사정보">회사정보</a></li>
+          <li><a href="#" title="채용정보">채용정보</a></li>
+          <li><a href="#" title="이용약관">이용약관</a></li>
+          <li><a href="#" title="개인정보처리방침">개인정보처리방침</a></li>
+          <li><a href="#" title="Contact us">Contact us</a></li>
+          <li><a href="#" title="고객의 소리">고객의 소리</a></li>
+        </ul>
+      </article>
+    </div>
+    </main>
+
+    <!-- 푸터 영역 시작 -->
+    <footer>
+        <div id="address">
+        <aside>
+        <a href="#" title="위로 바로가기"  class="t_btn"><i class="fas fa-angle-up"></i><span class="top">위로 바로가기</span></a>
+      </aside>
+
+     
+      <label for="family"><span class="family">패밀리사이트</span></label>
+      <select onchange="siteUrl(this)" id="family">
+        <option>Family site</option>
+        <option value="https://lotteria.com/">롯데리아</option>
+        <option value="https://www.angelinus.com/">엔젤리너스</option>
+        <option value="https://www.lotteconf.co.kr/">롯데제과</option>
+        <option value="https://www.lpoint.com/">L.POINT</option>
+      </select>
+        
+      <ul class="sns">
+        <li>
+          <a href="https://www.facebook.com/kkdkorea1937" title="페이스북" class="fab fa-facebook-f"><span class="facebook">페이스북</span></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/krispykremekr" title="트위터" class="fab fa-twitter"><span class="twitter">트위터</span></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/krispykremekr/?hl=ko" title="인스타그램" class="fab fa-instagram"><span class="instagram">인스타그램</span></a>
+        </li>
+      </ul>  
+
+      <address>
+        <p>
+            대표: ooo&#x2502; 
+            사업자등록번호: 000-00-00000&#x2502; 
+            주소: ooo ooo oo</p>
+        <p>
+            개인정보관리책임자: ooo&#x2502; 
+            대표문의: 02-0000-0000</p>
+        <p class="copy">Copyright &copy; 2013 KRISPY KREME DOUGHNUTS All Rights Reserved.</p>
+      </address>
+
+      </div>
+    </footer>
+
+
+    <script>
+      var swiper = new Swiper(".main_slide", {
+          autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+      });
+    </script>
+      <script>
+        var swiper = new Swiper('.swiper', {
+          slidesPerView: 3,
+          direction: getDirection(),
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          on: {
+            resize: function () {
+              swiper.changeDirection(getDirection());
+            },
+          },
+        });
+  
+        function getDirection() {
+          var windowWidth = window.innerWidth;
+          var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+  
+          return direction;
+        }
+      </script>
+      <script>
+        function siteUrl(a){   //사용자가 select태그에서 option을 선택하면 값을 전달받는다.
+          if(a.value!='none'){ //만약에 사용자가 선택목록을 선택하였을 떄는 아래 내용을 실행한다.
+            window.open(a.value, '_self'); //사이트 연결을 실행한다.
+            a.value='none'; //값을 초기화한다.
+          }else{            // 그렇지 않으면
+            return;         //실행하지 않는다.
+          }
+        }
+      </script>
+  </body>
+</html>
